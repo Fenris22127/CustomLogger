@@ -1,0 +1,4 @@
+# Project exclude paths
+/.gradle/
+/GodLogger/build/
+/GodLogger/build/classes/java/main/

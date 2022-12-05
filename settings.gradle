@@ -1,0 +1,4 @@
+rootProject.name = 'CustomLogger'
+include 'Logger'
+include 'GodLogger'
+
