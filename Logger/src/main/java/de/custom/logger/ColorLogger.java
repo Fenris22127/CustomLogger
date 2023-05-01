@@ -1,7 +1,5 @@
 package de.custom.logger;
 
-import de.custom.formatter.LogFormatter;
-
 import java.util.MissingResourceException;
 import java.util.logging.*;
 

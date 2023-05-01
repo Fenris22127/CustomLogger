@@ -1,6 +1,4 @@
-package de.custom.formatter;
-
-import de.custom.colors.FormatColor;
+package de.custom.logger;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -53,7 +51,7 @@ public class LogFormatter extends Formatter {
     private final boolean isDetailed;
 
     /**
-     * The Constructor: Sets, whether the created {@link java.util.logging.Logger Logger} is a detailed logger, meaning
+     * The Constructor: Sets, whether the created {@link Logger Logger} is a detailed logger, meaning
      * it will print its method of origin as well as its class
      * @param isDetailedLogger Whether the Logger is detailed or not
      */
@@ -105,7 +103,7 @@ public class LogFormatter extends Formatter {
             }
         }
 
-        builder.append(FormatColor.RESET);
+        builder.append(FormatColorEnum.RESET);
         builder.append("\n");
         return builder.toString();
     }

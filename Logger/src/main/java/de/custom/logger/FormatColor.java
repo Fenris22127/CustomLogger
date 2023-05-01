@@ -1,4 +1,4 @@
-package de.custom.colors;
+package de.custom.logger;
 
 @SuppressWarnings("unused")
 public class FormatColor {
